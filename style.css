@@ -1,0 +1,48 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: rgb(15, 15, 15);
+    border-bottom: 2px solid palevioletred;
+    font-family: 'Sansita Swashed', cursive;
+}
+.navbar:hover {
+    color: gray;
+}
+
+.jumbotron {
+    background-color: rgb(26, 26, 26);
+}
+
+.nav-link, .lead, .fas {
+    color: palevioletred;
+}
+
+.col {
+    height: 500px;
+    width: 300px;
+}
+
+.btn {
+    background-color: palevioletred;
+}
+
+.icons {
+    font-size: 3rem;
+}
+
+.icons a {
+    color: gray;
+    margin: 1rem;
+}
+
+.icons a:hover {
+    text-decoration: none;
+    color: palevioletred;
+    transition: transform .5s;
+    transform: rotate(-360deg);
+}
+
+
+
